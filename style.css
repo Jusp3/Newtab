@@ -1,5 +1,5 @@
 html {
-  background: url(moon.png);
+  background: url(https://github.com/Jusp3/Newtab/blob/main/Moon.png);
   align-items: center;
   margin: auto;
 }
@@ -165,5 +165,3 @@ button:focus {
   margin: 50px 1.5%;
   position: relative;
 }
-
-

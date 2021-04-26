@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Newtab</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/ico" href="favicon.ico"/>
+</head>
+
+<div class="search_container">
+  <div class="search">
+  <a href="https://www.google.com" class="search-icon"><img alt="" src="google.webp" class="G-icon"></a>
+  <form action="https://www.google.com/search">
+  <input id="g" type="text" spellcheck="off" autocomplete="off" name="q" aria-label="Search" placeholder="Google">
+    <a class="search__button search__button_spaced_right">
+      <svg focusable="false" viewBox="0 0 24 24">
+      <path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#6aee8d;"></path><path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path><path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path><path fill="#4285f4" d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59" ></path></svg>
+      <button class="search_button" type="submit"></button>
+    </a>
+  </form>
+</div>
+</div>
+
+<div class="row">
+  <div class="column" id="news">
+    <span class="column-header">Ilta-Sanomat</span>
+      <div id="is">
+    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="145582/"></script> <!-- end feedwind code -->
+    </div>
+  </div>
+  <div class="column" id="calculator">
+    <span class="column-header">Laskin</span>
+    <iframe id="calc" allowfullscreen="allowfullscreen" frameborder="0" mozallowfullscreen="" webkitallowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin" scrolling="no" src="https://jusp3.github.io/Calculator/" class=""></iframe>
+  </div>
+  <div class="column" id="weather">
+    <span class="column-header">Sää</span>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/64d8125d99/muhos/" data-label_1="MUHOS" data-label_2="Sää" data-textcolor="rgba(255, 255, 255, 255)" >MUHOS Sää</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+  </div>
+  <div class="" id="bookmarks"></div>
+</div>
+</html>

@@ -1,0 +1,169 @@
+html {
+  background: url(moon.png);
+  align-items: center;
+  margin: auto;
+}
+
+.search_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.search {
+  margin: 0;
+  top: 20%;
+  left: 17%;
+  background: rgba(0,0,0, 0.7);
+  width: 300px;
+  height: 46px;
+  border-radius: 23px;
+  border: none;
+  color: white;
+  -webkit-box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 70%);
+  box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 70%);
+  padding: 0 12px 0 50px;
+}
+
+ #g {
+  position:absolute;
+  height: 46px;
+  width: 310px;
+  background: 0;
+  border: none;
+  border-radius: 23px;
+  color:white;
+}
+
+.search-icon {
+  height: 18px;
+  line-height: 18px;
+  position:absolute;
+  margin-left: -30px;
+  margin-top: 14px;
+}
+
+.G-icon {
+  width: 18px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.search__control-icon {
+  position: relative;
+  top: 3px;
+  stroke: rgba(0,0,0,.5);
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.search__button_spaced_right {
+  margin-right: 7px;
+}
+
+.search_button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: -6px;
+  background: rgba(0,0,0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.search__button {
+  position: absolute;
+  -webkit-box-ordinal-group: 5;
+  -ms-flex-order: 4;
+  order: 4;
+  width: 20px;
+  height: 20px;
+  margin: 13px 270px;
+  line-height: 25px;
+  color: #0094d4;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.column {
+  background: rgba(0,0,0, 0.7);
+  width: 100%;
+  min-height: auto;
+  max-height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 70%);
+  box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 70%);
+  padding: 5px 1px 20px 1px;
+  margin: 50px 1.5%;
+  justify-content: center;
+  float: left;
+}
+
+.row {
+  content: "";
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.column-header {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 12px 0px 15px 0px;
+}
+
+#calc {
+  height: 380px;
+  min-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  align-items: center;
+  display: block;
+}
+
+#calculator {
+  width: 100%;
+  height: 100%;
+}
+
+#weather {
+  height: 100%;
+  overflow: hidden;
+}
+
+#is {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+#is2 {
+  overflow: scroll;
+}
+
+#bookmarks {
+  background: rgba(0,0,0, 0.7);
+  width: 100%;
+  min-height: auto;
+  max-height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 70%);
+  box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 70%);
+  padding: 5px 1px 20px 1px;
+  margin: 50px 1.5%;
+  position: relative;
+}
+
+
